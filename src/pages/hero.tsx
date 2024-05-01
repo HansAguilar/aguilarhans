@@ -4,10 +4,10 @@ import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiOutlineFacebook, AiO
 
 export default function Hero() {
     return (
-        <section className="relative w-2/4 min-h-full">
-            <div className="flex flex-col justify-between h-full">
+        <section className="relative w-2/4">
+            <div className="flex flex-col sticky top-0 min-h-screen justify-between px-4 py-24">
                 <div className="flex flex-col gap-4 self-start">
-                    <h1 className="text-4xl font-bold text-[#DAE2EF] backdrop-filter backdrop-blur-lg bg-opacity-30 sticky top-0 left-0 z-50">
+                    <h1 className="text-4xl font-bold text-[#DAE2EF] ">
                         Hans Vincent Aguilar
                     </h1>
 

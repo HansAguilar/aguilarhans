@@ -49,7 +49,7 @@ export default function Home() {
   const ref = useRef(null);
   const { x, y } = FollowCursor(ref);
   return (
-    <main className="flex min-h-screen justify-between m-auto px-4 py-24 w-3/4">
+    <main className="flex justify-between m-auto w-3/4">
       <motion.div
         className={`fixed top-0 left-0`}
         style={style}
